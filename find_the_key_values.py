@@ -19,11 +19,11 @@ def find_the_key_values(dict1 = None, Keyname1 = None):
                 values.append(dict1[Keyname1])
     return values
 
+#Exmple given below
+#dt1 = {1:[{1:'1'}] , 2:[{},{1:'2'}] , 3:{1:'abc'} , 4:({1:'xyz'},2)}
+#dt3 = [{1:'abc' , 2:'3'} , [{2:'gh'}]]
+#dic2 = {1:'abc'}
 
-dt1 = {1:[{1:'1'}] , 2:[{},{1:'2'}] , 3:{1:'abc'} , 4:({1:'xyz'},2)}
-dt3 = [{1:'abc' , 2:'3'} , [{2:'gh'}]]
-dic2 = {1:'abc'}
-
-print(find_the_key_values(dt3,2))
+#print(find_the_key_values(dt3,2))
 
 
